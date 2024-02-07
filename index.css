@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+iframe {
+    height: 100vh;
+    width: 100%;
+    border: none;
+}
+
+.section-header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1, p {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

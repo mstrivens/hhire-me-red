@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+    <section class="section-header">
+        <h1>Max Strivens</h1>
+        <p>Hire me as a Junior Developer (<a src="https://www.linkedin.com/mstrivens" target="_parent">Click Here!</a>)</p>
+    </section>
+  <iframe src="https://my.spline.design/untitled-d6049952740eda1159925117b495d11d/"></iframe>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  
+  <script>
+    const headLine = new SplitType('h1')
+    const myText2 = new SplitType('p', {charClass: 'char2'})
+    let t1 = gsap.timeline({defaults: {ease: "Expo.easeInOut"}})
+
+    t1.from('.char', {
+      y: -100,
+      delay: 1,
+      stagger: 0.05
+    }).from('.char2', {
+      y: -100,
+      duration: 0.6 ,
+      stagger: 0.05
+    }, "-=1.2").to('h1,p', {
+        y: 130,
+        delay: 0.4,
+        deuration: 1.4
+    })
+  </script>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
