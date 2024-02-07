@@ -11,6 +11,7 @@ html {
 
 iframe {
     height: 100vh;
+    margin: 0;
     width: 100%;
     border: none;
 }
