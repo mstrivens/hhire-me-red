@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Graebach";
+    font-family: "open-sans";
     src: url("/open-sans.woff2.woff") format('woff2');
   }
   
@@ -32,7 +32,7 @@ a {
 }
 
 h1, p {
-    font-family: Graebach;
+    font-family: open-sans;
 }
 
 h1, p {
